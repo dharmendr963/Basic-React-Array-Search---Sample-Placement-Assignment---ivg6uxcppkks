@@ -9,6 +9,10 @@ const App = () => {
   
   return (
     <div id="main">
+      <form action="action" method="post">
+  <input type="text" name="fname" required>
+  <input type="submit" value="Submit">
+</form>
       
     </div>
   )
